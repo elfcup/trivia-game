@@ -1,0 +1,51 @@
+h1 {
+	background-color: lightblue;
+	color: darkblue;
+	font-size: 60px;
+	font-family: sans-serif;
+	padding: 20px;
+}
+
+div {
+	text-align: center;
+}
+
+.feature, .multiple {
+	background-color: lightpink;
+	padding: 15px;
+}
+
+.feature {
+	font-size: 30px;
+}
+
+.multiple {
+	font-size: 20px;
+}
+
+button {
+        /* Positioning */
+        margin: 50px 0;
+        /* Typography */
+        text-align: center;
+        flex: 1;
+        font-size: 30px;
+    
+        /* Box-model */
+        width: 200px;
+        height: 100px;
+
+      }
+.butDone {
+	background-color: violet;
+}
+
+.checkbox-inline {
+	background-color: lightpink;
+	padding-left: 20px;
+}
+
+.finish {
+	font-size: 50px;
+	background-color: yellow;
+}
