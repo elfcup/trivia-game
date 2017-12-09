@@ -79,6 +79,18 @@ $("#8c").click(function() {
     console.log("New userScore= " + userScore);
 });
 
+$("#9a").click(function() {
+    console.log("You clicked the first box, correct answer!");
+    userScore++;
+    console.log("New userScore= " + userScore);
+});
+
+$("#10d").click(function() {
+    console.log("You clicked the forth box, correct answer!");
+    userScore++;
+    console.log("New userScore= " + userScore);
+});
+
 
 
 $("#done").click(function() {
@@ -87,8 +99,8 @@ $("#done").click(function() {
     stop(); //to stop the clock from ticking down
     //alert("Total correct= " + userScore)
     //alert("Total incorrect= " + (10 - userScore))
-    
-$(".finish").html("Total correct= " + userScore + "   Total incorrect= " + (10 - userScore))
+
+    $(".finish").html("Total correct= " + userScore + "   Total incorrect= " + (10 - userScore))
 
     //$(".finish").append("Total incorrect= " + (10 - userScore))
 
